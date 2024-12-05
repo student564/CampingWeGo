@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+.navBar{
+background-color: rgb(164, 0, 0);
+font-weight: bold;
+ color: #fffdfd; 
+ border-radius: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+
+h1{
+color: rgb(164, 0, 0);
+}
+
+.navBar h2{
+border-bottom: 3px solid #fffdfd;    
+}
+
+.navBar ul{
+border-bottom: 3px solid #fffdfd;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+.navBar  ul li {
+display:inline-flex;
+list-style-type: none;
+margin-right: 20rem;
+margin-left: 5rem;
+
+}
+
+.navBar ul li a:hover{
+ text-decoration: underline;   
+ color:rgb(241, 155, 124);
+ 
+}
+.navBar ul li a{
+font-weight: bold;
+ color: #fffdfd;  
+ font-size: 16px;
+
+}
+
+body{
+background-color: rgb(240, 76, 16);
+}
+
+
+#Login{
+background-color: rgb(241, 155, 124);
+margin: 45px 30px;
+padding: 45px 20px;
+min-height: 20vw;
+color:rgb(164, 0, 0);
+}
+
+#Login h1 {
+border-bottom: 3px solid rgb(164, 0, 0);
+padding-bottom: 12px;
+}
+
+#Login input{
+margin-bottom: 23px;
+background-color: rgb(247, 188, 167);
+padding-bottom: 13px;
+padding-top: 13px;
+padding-right: 23px;
+border-color: rgb(164, 0, 0);
+margin-top: 30px;
+}
+
+ button {
+padding: 13px 20px;
+border-radius: 20px;
+background-color: rgb(240, 76, 16);
+color:#fffdfd;
+border-color: rgb(240, 76, 16);
+box-shadow: 26px rgb(255, 68, 0);
+}
+
+.Login a{
+color:rgb(164, 0, 0); 
+}
+
+#schedule {
+    background-color: rgb(247, 188, 167);
+    min-height: 40vh;
+    color:rgb(164, 0, 0);
+    margin: 45px 30px;
+    padding: 45px 20px;
+    max-height: 35vh;
+    }
+
+#schedule table{
+    background-color: rgb(247, 188, 167);
+    border: 3px solid rgb(164, 0, 0);   
+}
+
+.inputList{
+display: grid;
+grid-template-columns: repeat(2, 200px);
+
+}
+
+
+#georgiaSites{
+    background-color: rgb(240, 76, 16);
+    color:#fffdfd;
+
+}
+
+#georgiaSites input{
+margin-top: 45px;
+background-color: rgb(241, 155, 124);
+color: rgb(208, 56, 0);
+font-size: 23px;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 10px;
+min-width: 20vw;
+min-height: 8vh;
+}
+
+.siteCard{
+background-color: rgb(241, 155, 124);
+color: rgb(164, 0, 0);
+border-radius: 10px;
+font-family: 'Times New Roman', Times, serif;
+width: 8vw;
+}
+
+
+.footNote{
+background-color: rgb(241, 155, 124);
+padding: 23px  12px;
+color: rgb(164, 0, 0);
+}
